@@ -132,7 +132,6 @@ g++ *.cpp -o crypto
 ./crypto
 ```
 
----
 
 ---
 
