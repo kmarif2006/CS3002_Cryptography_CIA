@@ -134,33 +134,6 @@ g++ *.cpp -o crypto
 
 ---
 
-# 🧪 4. Worked Examples
-
-## ✅ Example 1
-
-**Plaintext:** `ACT`
-
-**Key:**
-```
-[6 24 1; 13 16 10; 20 17 15]
-```
-
-**Encryption:** `ACT → POH`  
-**Hash Output:** `8de86f98`  
-**Decryption:** `POH → ACT`  
-✔ Successful round-trip
-
----
-
-## ✅ Example 2
-
-**Plaintext:** `HELLO`  
-**Preprocessing:** `HELLO → HELLOX` (padding added)  
-**Encryption:** `HELLOX → TFJMDQ`  
-**Hash Output:** (Computed dynamically)  
-**Decryption:** `TFJMDQ → HELLOX`  
-✔ Padding handled correctly
-
 ---
 
 # 🔄 5. Test Script (Round Trip)
