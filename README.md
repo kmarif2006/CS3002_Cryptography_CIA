@@ -1,10 +1,10 @@
-# 🔐 Cryptography Project: Hill Cipher + Custom Hash Function
+# 🔐 Cryptography CIA: Hill Cipher + Custom Hash Function
 
 ## 📌 Assignment Overview
 This project implements a **classical cipher (Hill Cipher)** along with a **self-designed hashing function**, as required in the assignment.
 
 ### Cipher Assignment:
-- Hill Cipher (based on roll number modulo 10)
+- Hill Cipher 
 
 ### Language Used:
 - C++ (implemented completely from scratch)
@@ -182,16 +182,7 @@ Decrypted:  CRYPTOGRAPHY
 | `custom_hash_function()` | Computes hash of ciphertext |
 | `preprocess_text()` | Removes spaces, converts to uppercase, adds padding |
 | `matrix_mod_inverse()` | Computes modular inverse of matrix |
-
----
-
-# 🚫 7. Constraints Followed
-
-✔ Language: C++  
-✔ No use of built-in cryptography libraries  
-✔ Implemented fully from scratch  
-✔ Custom hashing function (not copied)  
-✔ Hash function properly justified  
+ 
 
 ---
 
@@ -216,14 +207,10 @@ This project successfully demonstrates:
 
 ---
 
-# 🔗 10. Submission
-
-**GitHub Repository Link:** *(Add your GitHub link here)*
-
----
 
 # 👨‍💻 Author
 
-**Name:** *(Your Name)*  
-**Course:** Cryptography Lab  
+**Name:** *K M ARIF*
+**Reg No:** *23011102036*
+**Course:** CS3002-Cryptography  
 **Language:** C++
