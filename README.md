@@ -1,6 +1,6 @@
-# 🔐 Cryptography CIA: Hill Cipher + Custom Hash Function
+#  Cryptography CIA: Hill Cipher + Custom Hash Function
 
-## 📌 Assignment Overview
+##  Assignment Overview
 This project implements a **classical cipher (Hill Cipher)** along with a **self-designed hashing function**, as required in the assignment.
 
 ### Cipher Assignment:
@@ -11,9 +11,9 @@ This project implements a **classical cipher (Hill Cipher)** along with a **self
 
 ---
 
-# 📖 1. Theory
+#  1. Theory
 
-## 🔐 Hill Cipher
+##  Hill Cipher
 
 The Hill Cipher is a **polygraphic substitution cipher** that uses **linear algebra concepts (matrix multiplication)** for encryption and decryption.
 
@@ -41,7 +41,7 @@ Where:
 
 ---
 
-## 🔑 Key Matrix Used
+##  Key Matrix Used
 ```
 [  6  24   1 ]
 [ 13  16  10 ]
@@ -53,18 +53,18 @@ Where:
 
 ---
 
-# 🔁 2. Custom Hash Function
+#  2. Custom Hash Function
 
 ### Algorithm Used:
 **FNV-inspired Polynomial Hash Function (Custom Implementation)**
 
 ---
 
-## 📌 Why This Hash Function Was Chosen (Strong Justification)
+##  Why This Hash Function Was Chosen (Strong Justification)
 
 This hashing approach is inspired by the **FNV (Fowler–Noll–Vo) hash**, but implemented manually to satisfy assignment constraints.
 
-### 🔍 Key Reasons:
+###  Key Reasons:
 
 ### 1. Avalanche Effect (High Sensitivity)
 - A **small change in input (even 1 character)** produces a significantly different hash.
@@ -108,7 +108,7 @@ POI → completely different hash
 
 ---
 
-## ⚙️ Working of Hash Function
+##  Working of Hash Function
 
 For each character in the ciphertext:
 
@@ -120,14 +120,14 @@ Final result → 32-bit hash value
 
 ---
 
-# ⚙️ 3. How to Run the Code
+#  3. How to Run the Code
 
-### 🔧 Compile
+###  Compile
 ```bash
 g++ *.cpp -o crypto
 ```
 
-### ▶️ Run
+###  Run
 ```bash
 ./crypto
 ```
@@ -135,14 +135,14 @@ g++ *.cpp -o crypto
 
 ---
 
-# 🔄 5. Test Script (Round Trip)
+#  5. Test Script (Round Trip)
 
 The implementation demonstrates the full pipeline:
 ```
 Plaintext → Encryption → Ciphertext → Hash → Decryption → Original Text
 ```
 
-### 🖥️ Sample Output — Example 1 (Plaintext: `ACT`)
+###  Sample Output — Example 1 (Plaintext: `ACT`)
 
 ![Terminal Output - ACT](screenshots/output_ACT.png)
 ```
@@ -156,7 +156,7 @@ Decrypted:  ACT
 
 ---
 
-### 🖥️ Sample Output — Example 2 (Plaintext: `CRYPTOGRAPHY`)
+###  Sample Output — Example 2 (Plaintext: `CRYPTOGRAPHY`)
 
 ![Terminal Output - CRYPTOGRAPHY](screenshots/output_CRYPTOGRAPHY.png)
 ```
@@ -170,7 +170,7 @@ Decrypted:  CRYPTOGRAPHY
 
 ---
 
-# 📁 6. Source Code Description
+# 6. Source Code Description
 
 ### Functions Implemented:
 
@@ -185,7 +185,7 @@ Decrypted:  CRYPTOGRAPHY
 
 ---
 
-# 🎯 8. Key Features
+# 8. Key Features
 
 - Hill Cipher (3×3 matrix implementation)
 - Matrix inverse using modular arithmetic
@@ -195,7 +195,7 @@ Decrypted:  CRYPTOGRAPHY
 
 ---
 
-# ✅ 9. Conclusion
+# 9. Conclusion
 
 This project successfully demonstrates:
 
@@ -207,9 +207,9 @@ This project successfully demonstrates:
 ---
 
 
-# 👨‍💻 Author
+# Author
 
-**Name:** *K M ARIF*
+**Name:** *K M ARIF *
 **Reg No:** *23011102036*
 **Course:** CS3002-Cryptography  
 **Language:** C++
