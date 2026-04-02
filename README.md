@@ -209,7 +209,7 @@ This project successfully demonstrates:
 
 # Author
 
-**Name:** *K M ARIF *
+**Name:** K M ARIF 
 **Reg No:** *23011102036*
 **Course:** CS3002-Cryptography  
 **Language:** C++
