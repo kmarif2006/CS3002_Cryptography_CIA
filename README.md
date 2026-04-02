@@ -7,7 +7,7 @@ This project implements a **classical cipher (Hill Cipher)** along with a **self
 - Hill Cipher 
 
 ### Language Used:
-- C++ (implemented completely from scratch)
+- C++ 
 
 ---
 
