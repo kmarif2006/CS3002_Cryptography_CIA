@@ -124,6 +124,7 @@ Final result → 32-bit hash value
 
 ###  Compile
 ```bash
+cd src
 g++ *.cpp -o crypto
 ```
 
