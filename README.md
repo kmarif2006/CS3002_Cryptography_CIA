@@ -136,7 +136,8 @@ g++ *.cpp -o crypto
 
 ###  Sample Output — Example 2 (Plaintext: `CRYPTOGRAPHY`)
 
-![Terminal Output - ACT](screenshots/Screenshot 2026-04-02 130031.png)
+
+<img width="551" height="144" alt="Screenshot 2026-04-02 130031" src="https://github.com/user-attachments/assets/1fa0ee4b-a358-4390-a0d8-9d1bc655ea1a" />
 
 
 ---
