@@ -118,6 +118,7 @@ Final result → 32-bit hash value
 
 ###  Compile
 ```bash
+cd CS3002_Cryptography_CIA
 g++ *.cpp -o crypto
 ```
 
