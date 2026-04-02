@@ -136,42 +136,19 @@ g++ *.cpp -o crypto
 
 ---
 
-#  5. Test Script (Round Trip)
-
-The implementation demonstrates the full pipeline:
-```
-Plaintext → Encryption → Ciphertext → Hash → Decryption → Original Text
-```
-
 ###  Sample Output — Example 1 (Plaintext: `ACT`)
 
 ![Terminal Output - ACT](screenshots/output_ACT.png)
 ```
 Plaintext:  ACT
 Ciphertext: POH
-Hash:       8de86f98
+Hash:       1871088619
 Decrypted:  ACT
 ```
 
-✔ Round-trip verified successfully
-
 ---
 
-###  Sample Output — Example 2 (Plaintext: `CRYPTOGRAPHY`)
-
-![Terminal Output - CRYPTOGRAPHY](screenshots/output_CRYPTOGRAPHY.png)
-```
-Plaintext:  CRYPTOGRAPHY
-Ciphertext: CSNOPBCMTWBZ
-Hash:       175e4a53
-Decrypted:  CRYPTOGRAPHY
-```
-
-✔ Round-trip verified successfully
-
----
-
-# 6. Source Code Description
+# 5. Source Code Description
 
 ### Functions Implemented:
 
@@ -186,7 +163,7 @@ Decrypted:  CRYPTOGRAPHY
 
 ---
 
-# 8. Key Features
+# 6. Key Features
 
 - Hill Cipher (3×3 matrix implementation)
 - Matrix inverse using modular arithmetic
@@ -196,7 +173,7 @@ Decrypted:  CRYPTOGRAPHY
 
 ---
 
-# 9. Conclusion
+# 7. Conclusion
 
 This project successfully demonstrates:
 
