@@ -70,12 +70,6 @@ This hashing approach is inspired by the **FNV (Fowler–Noll–Vo) hash**, but 
 - A **small change in input (even 1 character)** produces a significantly different hash.
 - Important for cryptographic integrity verification.
 
-**Example:**
-```
-POH → 8de86f98
-POI → completely different hash
-```
-
 ### 2. Good Distribution of Hash Values
 - Uses **XOR + multiplication with a large prime**
 - Ensures uniform spread across output space
