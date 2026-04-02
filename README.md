@@ -141,6 +141,17 @@ Hash Before Encryption : 1871088619
 Hash After Decryption  : 1871088619
 Hash Verified: Data Integrity Maintained
 ```
+###  Sample Output — Example 2 (Plaintext: `CRYPTOGRAPHY`)
+
+![Terminal Output - ACT](screenshots/output_ACT.png)
+```
+Plaintext  : ACT
+Ciphertext : POH
+Decrypted  : ACT
+Hash Before Encryption : 1871088619
+Hash After Decryption  : 1871088619
+Hash Verified: Data Integrity Maintained
+```
 
 ---
 
