@@ -60,7 +60,7 @@ Where:
 
 ---
 
-##  Why This Hash Function Was Chosen (Strong Justification)
+##  Why This Hash Function
 
 This hashing approach is inspired by the **FNV (Fowler–Noll–Vo) hash**, but implemented manually to satisfy assignment constraints.
 
